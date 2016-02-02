@@ -41,3 +41,8 @@ pip2.7 install pycrypto
 cd /code/py/
 rm -rf /code/py/Python-2.7.6
 rm -rf /code/py/Python-2.7.6.tar.xz*
+
+# Install C++11
+cd /etc/yum.repos.d
+wget http://people.centos.org/tru/devtools-1.1/devtools-1.1.repo 
+yum --enablerepo=testing-1.1-devtools-6 --skip-broken install devtoolset-1.1-gcc devtoolset-1.1-gcc-c++
