@@ -22,6 +22,8 @@ alias cdpapers="cd /software/dist/newspaper/newspaper/papers"
 alias cdscrapers="cd /prod/www/apache/htdocs/autoasp/scrapers"
 alias cdmachines="cd /software/dist/types"
 
+alias grep='grep --color'
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 		. /etc/bashrc
